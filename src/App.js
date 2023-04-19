@@ -1,17 +1,21 @@
 import "./App.css";
 import { TypographyMUI } from "./components/TypographyMUI";
 import { LayoutMUI } from "./components/LayoutMUI";
-import { Box } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import { ButtonMUI } from "./components/ButtonMUI";
+import { TextFieldMUI } from "./components/TextFieldMUI";
 
 function App() {
   return (
     <div className="App">
-      <TypographyMUI />
-      <LayoutMUI />
-      <ButtonMUI />
+      <Container>
+        <TypographyMUI />
+        <LayoutMUI />
+        <ButtonMUI />
+        <TextFieldMUI />
 
-      <Box sx={{ mt: 20 }} />
+        <Box sx={{ mt: 20 }} />
+      </Container>
     </div>
   );
 }
