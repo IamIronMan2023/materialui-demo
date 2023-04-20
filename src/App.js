@@ -4,6 +4,7 @@ import { LayoutMUI } from "./components/LayoutMUI";
 import { Box, Container } from "@mui/material";
 import { ButtonMUI } from "./components/ButtonMUI";
 import { TextFieldMUI } from "./components/TextFieldMUI";
+import { GridMUI } from "./components/GridMUI";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <LayoutMUI />
         <ButtonMUI />
         <TextFieldMUI />
+        <GridMUI />
 
         <Box sx={{ mt: 20 }} />
       </Container>
