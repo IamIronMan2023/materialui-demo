@@ -7,6 +7,8 @@ import { TextFieldMUI } from "./components/TextFieldMUI";
 import { GridMUI } from "./components/GridMUI";
 import { SelectMUI } from "./components/SelectMUI";
 import { RadioButtonMUI } from "./components/RadioButtonMUI";
+import { CheckboxMUI } from "./components/CheckboxMUI";
+import { SwitchMUI } from "./components/SwitchMUI";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <GridMUI />
         <SelectMUI />
         <RadioButtonMUI />
+        <CheckboxMUI />
+        <SwitchMUI />
 
         <Box sx={{ mt: 20 }} />
       </Container>
