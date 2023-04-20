@@ -49,6 +49,9 @@ export const ButtonMUI = () => {
         <Button variant="contained" color="success">
           Success
         </Button>
+        <Button variant="contained" color="myCustomColor">
+          My Custom Color
+        </Button>
       </Stack>
       <Stack direction="row" spacing={2}>
         <Button variant="contained" size="small">
