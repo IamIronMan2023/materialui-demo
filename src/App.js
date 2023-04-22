@@ -17,6 +17,7 @@ import { CheckboxMUI } from "./components/CheckboxMUI";
 import { SwitchMUI } from "./components/SwitchMUI";
 import { red } from "@mui/material/colors";
 import { StyleMUI } from "./components/StyleMUI";
+import { MenuMUI } from "./components/MenuMUI";
 
 function App() {
   const theme = createTheme({
@@ -46,6 +47,7 @@ function App() {
           <CheckboxMUI />
           <SwitchMUI />
           <StyleMUI />
+          <MenuMUI />
 
           <Box sx={{ mt: 20 }} />
         </Container>
