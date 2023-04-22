@@ -15,15 +15,16 @@ import { SelectMUI } from "./components/SelectMUI";
 import { RadioButtonMUI } from "./components/RadioButtonMUI";
 import { CheckboxMUI } from "./components/CheckboxMUI";
 import { SwitchMUI } from "./components/SwitchMUI";
-import { brown, red } from "@mui/material/colors";
+import { red } from "@mui/material/colors";
+import { StyleMUI } from "./components/StyleMUI";
 
 function App() {
   const theme = createTheme({
     palette: {
       mode: "dark",
-      primary: {
-        main: brown[600],
-      },
+      // primary: {
+      //   main: brown[600],
+      // },
       myCustomColor: {
         main: red[500],
       },
@@ -44,6 +45,7 @@ function App() {
           <RadioButtonMUI />
           <CheckboxMUI />
           <SwitchMUI />
+          <StyleMUI />
 
           <Box sx={{ mt: 20 }} />
         </Container>
