@@ -1,4 +1,3 @@
-import "./App.css";
 import { TypographyMUI } from "./components/TypographyMUI";
 import { LayoutMUI } from "./components/LayoutMUI";
 import {
@@ -18,6 +17,7 @@ import { SwitchMUI } from "./components/SwitchMUI";
 import { red } from "@mui/material/colors";
 import { StyleMUI } from "./components/StyleMUI";
 import { MenuMUI } from "./components/MenuMUI";
+import { NavbarMUI } from "./components/NavbarMUI";
 
 function App() {
   const theme = createTheme({
@@ -35,23 +35,22 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <div className="App">
-        <Container>
-          <TypographyMUI />
-          <LayoutMUI />
-          <ButtonMUI />
-          <TextFieldMUI />
-          <GridMUI />
-          <SelectMUI />
-          <RadioButtonMUI />
-          <CheckboxMUI />
-          <SwitchMUI />
-          <StyleMUI />
-          <MenuMUI />
+      <NavbarMUI />
+      <Container>
+        <TypographyMUI />
+        <LayoutMUI />
+        <ButtonMUI />
+        <TextFieldMUI />
+        <GridMUI />
+        <SelectMUI />
+        <RadioButtonMUI />
+        <CheckboxMUI />
+        <SwitchMUI />
+        <StyleMUI />
+        <MenuMUI />
 
-          <Box sx={{ mt: 20 }} />
-        </Container>
-      </div>
+        <Box sx={{ mt: 20 }} />
+      </Container>
     </ThemeProvider>
   );
 }
